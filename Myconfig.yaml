@@ -7,8 +7,7 @@ execution:
 scenarios:
   simple:
     requests:
-         - http://54.187.115.1:8080/greeting
-         - http://54.187.115.1:8080/greeting?name=varun
+         - https://answersqc.nielsen.com/portal/rsi/branding/values?branding_keys=EMBED_LOGIN_VIDEO,LOGIN_VIDEO_TITLE&locale=en_US&_=1584336219162
 reporting:
 - module: final-stats
   dump-xml: stats.xml 
